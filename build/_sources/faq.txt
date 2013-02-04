@@ -20,7 +20,7 @@ Using Pylatte
 | line 9, in <module> import pylToPy File "C:\Users\jianxing\git\jianxingqiao-microq\pylatte_git\src\pylToPy.py",
 | line 1, in <module> import ply.lex as lex ImportError: No module named ply.lex
 
-	If you install PLY(Python Lex-Yacc) module, you will be solve this problem. How to install PYL
+	If you install PLY(Python Lex-Yacc) module, you will be solve this problem.
 
 Developing Pylatte
 ====================
