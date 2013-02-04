@@ -115,7 +115,7 @@ History
 *2012. 08. 06
 	Pylatte is released as pylatte module.
 *2012. 08. 27
-	Pylatte is registered in pypi. http://pypi.python.org/pypi/Pylatte/0.9.7
+	Pylatte is registered in pypi. http://pypi.python.org/pypi/Pylatte/
 *2013. 02. 03
 	Pylatte v1.0 released. pylatte is used wsgi.
 
