@@ -84,12 +84,18 @@ Tutorial
 F A Q
 ===================================
 
+.. toctree::
+   :maxdepth: 2
+
+   faq
 
 Contact us
 ===================================
 
+.. toctree::
+   :maxdepth: 2
 
-
+   contact
 
 history
 ===================================
