@@ -29,7 +29,7 @@ import sys, os
 extensions = ['sphinx.ext.autodoc', 'sphinx.ext.doctest', 'sphinx.ext.intersphinx', 'sphinx.ext.todo', 'sphinx.ext.coverage', 'sphinx.ext.pngmath', 'sphinx.ext.mathjax', 'sphinx.ext.ifconfig', 'sphinx.ext.viewcode']
 
 # Add any paths that contain templates here, relative to this directory.
-templates_path = ['templates']
+templates_path = ['_templates']
 
 # The suffix of source filenames.
 source_suffix = '.rst'
@@ -99,8 +99,17 @@ html_theme = 'default'
 # documentation.
 html_theme_options = {
 	"collapsiblesidebar" : "true",
-#	"sidebarbgcolor" : "#EEEEEE"
+#	"footerbgcolor" : "#FFFFFF",
+#	"footertextcolor" : "#000000",
+#	"relbarbgcolor" : "#FFFFFF",
+#	"relbartextcolor" : "#000000",
+#	"relbarlinkcolor" : "#000000",
+#	"sidebarbgcolor" : "#8B4513",#"#382C1D",
+#	"sidebarbtncolor" : "#80000",#"#291C0B",
+#	"sidebartextcolor" : "#FFFFFF",
+#	"sidebarlinkcolor" : "#FFFFFF"
 }
+
 
 # Add any paths that contain custom themes here, relative to this directory.
 #html_theme_path = []

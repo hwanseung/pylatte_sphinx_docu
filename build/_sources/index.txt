@@ -100,7 +100,7 @@ Contact us
 
    contact
 
-history
+History
 ===================================
 *2011. 05. 13
 	The Pylatte project is created in Busan, South Korea.
