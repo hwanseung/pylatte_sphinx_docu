@@ -8,7 +8,7 @@ Welcome to pylatte
 
 .. image:: http://pylatte.org/image/pylatte.png
 
-Pylatte : A Web Framework Based on Python 3 Pylatte is a web framework created specifically for Python 3. Pylatte is used pyl code to make web site. pyl code is compose to python and HTML. so pyl code seem like php code. easy to learn, easy to run.
+Pylatte : A Web Framework Based on Python 3.  Pylatte is used pyl code to make web site. pyl code is Python embedded in HTML. so pylatte seem like php or jsp. easy to learn, easy to run.
         
 Sample code
 -----------
