@@ -15,6 +15,16 @@ Pylatte is python3.x based framework. Therefore it is mandatory to install pytho
 	
 Current version is python3.2. so it is up to you if you install python3 or python3.2. After installing, check out whether it is installed or not.
 
+distribute Install
+============
+distribute is easily download, build, install, upgrade, and uninstall Python packages
+
+you can download install file at https://pypi.python.org/pypi/distribute/ and unzip the file and install.
+
+.. code-block:: bash
+
+	$sudo python3 setup.py install
+
 pip Install
 ============
 pip is a tool for installing and managing Python packages, such as those found in the Python Package Index. It's a replacement for easy_install.
