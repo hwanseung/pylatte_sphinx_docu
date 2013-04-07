@@ -231,7 +231,7 @@ In this case, DBMappingParser class and db_mapping.xml file are required to use.
 .. code-block:: guess
 
 	<sqlMap id="demo">
-		<select id="select">SELECT * FROM demo</select>
+		<select id="select">SELECT uid,name FROM demo</select>
 		<insert id="insert">insert into demo (name) values ($name$);</insert>
 		<update id="update">UPDATE demo SET name = $name$ WHERE uid = $uid$</update>
 		<delete id="delete">DELETE FROM demo WHERE uid = $uid$</delete>
@@ -250,12 +250,10 @@ This is xml code in db_mapping.xml file. <sqlMap> tag needs attribute 'id'. And 
 	result = contact.queryForList("demo.select")
 	$}
 	{$
-	for item in result:
+	for (uid,name) in result:
 	$}
-	<div>
-		<input type='radio' name='uid' id='radio-choice-{$=item["uid"]$}' value='{$=item["uid"]$}' />
-		<label for='radio-choice-{$=item["uid"]$}'>{$=item["uid"]$} : {$=item["name"]$}</label>
-	</div>
+	<input type='radio' name='uid' id='{$=uid$}' value='{$=uid$}' />
+	<label >{$=uid$} : {$=name$}</label>
 	{$
 		pass
 	$}
